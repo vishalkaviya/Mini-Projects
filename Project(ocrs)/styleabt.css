@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainabtimg button:hover{
+    color: rgb(100, 97, 94)!important;
+    background-color: rgb(253, 210, 129)!important;
+}
+h3 {
+    margin-top: 15px;
+}
+
+.menu {
+    display: flex;
+    background-color: #ebb6f5;
+    margin-top: 10px;
+    justify-content: space-around;
+    padding: 10PX;
+}
+.mainabtimg{
+    background-image: url(abtus1pic.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height:400px;
+    flex-direction:column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+.textabt{
+    padding:40px;
+    text-align: left;
+}
+.abtussec{
+    height:300px;
+    
+    background-color:#c8ffe6;
+    flex-direction:column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+.divgray{
+    display: flex;
+    background-color: rgb(17,16,39);
+    
+}
+.kstu{
+    display:flex;
+    flex-direction: row;
+    margin:0;
+    background-color: #033b32;
+    height: 150px;
+    padding:50px;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    
+
+}
+.kstu div{
+    width:50px;
+    color:white;
+    margin:10px;
+    flex-basis:17%;
+    text-align: center;
+    
+}
+.kstupic{
+    border-radius:30px;
+    height:100px; 
+    width:100px;
+    margin-left:40px;
+}
+.kstupic:hover{
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+.lm:hover{
+    color:gray;
+    background-color: gray;
+}
+.abtussec1{
+    
+    flex:1;
+    height:300px;
+    width: 850px;
+    background-color:rgb(17, 16, 39);
+    justify-content: left;
+    text-align: left;
+    padding: 20px;
+}
+.points{
+    padding:60px;
+    color: white;
+}
+.imgdiv img{
+    flex:1;
+    height:345px;
+    width: 600px;
+    
+}
+.achieve{
+    display: flex;
+    
+    height:300px;
+    flex-direction:column;
+    align-items: center;
+    padding: 20px;
+}
+.LearnMore:hover{
+    color:rgb(76, 70, 70)!important;
+    
+}
+.lm{
+    display: block;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius:8px;
+    padding: 20px;
+    font-size: large;
+}
+.prefooter{
+    display:flex;
+    
+    height:200px;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.pcontact{
+    display: flex;
+    margin-left: 100px;
+}
+.pcontact ul{
+    list-style-type:none;
+    line-height: 1.8;
+}.prehome ul{
+    list-style-type:none;
+    line-height: 1.8;
+}
+.pabtus ul{
+    list-style-type:none;
+    line-height: 1.8;
+}

@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    height: 30px;
+    width:300px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width:1px; margin-left: 550px;
+    cursor: pointer;
+    margin-top: 60px;
+    
+}
+.submit{
+    color: azure;
+    background-color:rgb(3, 3, 114);
+    border-radius: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(3, 3, 114);
+    border-width:1px;
+    margin-top: 60px;
+    margin-left: 20px;
+    width:100px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+.table1{
+    
+    margin-top: 30px;
+    margin-left: 370px;
+    
+  
+}
+tr,td,th{
+    padding: 8px;
+    text-align: left;
+}
+.table2{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 30px;
+    margin-left: 300px;
+
+   
+}
+thead{
+    background-color: #ea8585;
+}
+tbody{
+    background-color: #f0cccc;
+}

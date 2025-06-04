@@ -1,0 +1,55 @@
+input{
+    height: 30px;
+    width:300px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width:1px; margin-left: 400px;
+    cursor: pointer;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+.submit{
+    color: azure;
+    background-color:rgb(3, 3, 114);
+    border-radius: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(3, 3, 114);
+    border-width:1px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width:100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+  .submit:hover{
+      background-color: rgb(48, 48, 205);
+    }
+.table1{
+    
+    margin-top: 30px;
+    margin-left: 340px;
+    
+  
+}
+tr,td,th{
+    padding: 8px;
+    text-align: left;
+}
+.table2{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 30px;
+    margin-left: 300px;
+
+   
+}
+thead{
+    background-color: #ea8585;
+}
+tbody{
+    background-color: #f0cccc;
+}

@@ -1,0 +1,335 @@
+
+.rew1{
+    height:1050px;
+    width: 1500px;
+    background-color:white;
+    box-shadow:0px 0px 20px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top:20px;
+    text-align: center;
+}
+.rew1 h1{
+    margin-top: 20px;
+}
+.subrew1{
+    height: 100px;
+    width:1500px;
+    background-color: rgb(13, 13, 68);
+    border-radius: 20px;
+}
+.msgimg{
+    height: 100px;
+    width: 100px;
+    margin-right: 1200px;
+    
+}
+.subrew2{
+    height:350px;
+    width:350px;
+    background-color:white;
+    box-shadow:0px 0px 20px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.img1{
+    height: 100px;
+    width:100px;
+    margin-right: 170px;
+    margin-top:20px;
+    display: inline-block;
+}
+.img2{
+    margin-left: 100px;
+    margin-top: -100px;
+    height: 100px;
+    width:100px;
+}
+.par1{
+    font-size: large;
+    margin-top: 20px;
+    color: rgb(65, 62, 62);
+}
+.subrew3{
+    height:350px;
+    width: 350px;
+    background-color:white;
+    box-shadow:0px 0px 20px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.subrew4{
+    height:350px;
+    width:350px;
+    background-color:white;
+    box-shadow:0px 0px 20px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+.rew2{
+    width:1500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+
+.subrew5{
+    height:350px;
+    width: 350px;
+    background-color:white;
+    box-shadow:0px 0px 20px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+.subrew6{
+    height:350px;
+    width: 350px;
+    background-color:white;
+    box-shadow:0px 0px 20px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+.subrew7{
+    height:350px;
+    width: 350px;
+    background-color:white;
+    box-shadow:0px 0px 20px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+.rew3{
+    width:1500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.posreview{
+    background-color:white;
+    box-shadow:0px 0px 20px rgb(0,0,0,0.2);
+    margin-top: 300px;
+    height: 420px;
+   
+    display: flex;
+    
+}
+.posimg{
+    height: 350px;
+    
+   
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.posreview1{
+    height: 310px;
+    width: 600px;
+    background-color: rgb(247, 241, 241); 
+    box-shadow:0px 0px 20px rgb(0,0,0,0.2);
+    margin-left:60px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.ratimg{
+    height: 100px;
+    width:100px;
+    margin-top: 5px;
+    margin-left: 20PX;
+    border-radius: 20px;
+   
+}
+.par{
+    font-size: large;
+}
+.emoji{
+    height: 95px;
+    width: 100px;
+    margin-left: 400px;
+    margin-top: -20px;
+}
+
+.formrew{
+    height: 100px;
+    width:100%;
+    background-color:rgb(20, 20, 63) ;
+}
+.contactus{
+    display:flex;
+    height: 500px;
+
+}
+.feedback{
+    display:block;
+    height:450px;
+    width:450px;
+    margin-left:120px;
+    margin-top:-40px;
+    padding:30px;
+    border-radius: 20px;
+    background-color:rgb(7, 7, 92);
+    text-align: center;
+    
+    
+}
+.design{
+    height:720px;
+    width:700px;
+    background-color:white;
+    margin-top: 20px;
+    box-shadow: 0px 0px 40px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.design1{
+    height: 580px;
+    width:300px;
+    background-color: blue;
+    
+}
+.design0{
+    height:100px;
+    width:300px;
+    background-color: blue;
+    margin-top:50px;
+
+}
+.name{
+    
+    display:block;
+    margin-top:20px;
+    width:300px;
+    height:50px;
+    border-radius:20px;
+    background-color:white;
+    color:black;
+   border-style:solid;
+    
+
+}
+.email{
+    
+    display:block;
+    margin-top:30px;
+    width:300px;
+    height:50px;
+    border-radius:20px;
+    background-color:white;
+    color:black;
+   border-style:solid;
+    
+
+}
+
+.msg{
+    width:200px;
+    height:50px;
+    margin-top:70px;
+    text-align:center;
+    padding: 5px;
+    background-color: #AB47BC;
+    color:white;
+    border-color: #AB47BC;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+.contact img{
+    height: 550px;
+    width: 550px;
+    margin-top:50px;
+    margin-left: 90px;
+}
+.msglogo img{
+    border-radius:50%;
+    margin-left:-770px;
+    margin-top: 470px;
+}
+.input-container {
+    position: relative;
+    width: 250px;
+    margin-top: 5px;
+    margin-right: 50px;
+    height: 70px;
+    
+}
+
+.input-container input {
+    width: 100%;
+    padding: 2px 2px 2px 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   
+    cursor: pointer;
+}
+
+.input-container i {
+    position: absolute;
+    left:20px;
+    top: 45%;
+    transform: translateY(-50%);
+    color:black
+}
+.message{
+   
+    height:70px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width:300px;
+    
+}   
+.userreview{
+    background-color: #ebb6f5;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    box-shadow: 0px 0px 40px rgb(0,0,0,0.2);
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.rr1{
+    background-color: white;
+    height: 200px;
+    width:200px;
+    box-shadow: 0px 0px 40px rgb(0,0,0,0.2);
+    border-radius: 10px;
+    flex-basis: 20%;
+    text-align: center;
+    padding: 10px;
+}
+.r1{
+    height: 70px;
+    width: 300px;
+    background-color: #eccff1;
+    display: flex;
+    border-radius: 10px;
+    
+    
+}
+.r1 i{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    color: purple;
+    margin-top: 18px;
+    font-size: 40px;
+}
+.r1 p{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.rr1 p{
+    margin-top: 20px;
+}
+
+
+
+

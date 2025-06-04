@@ -1,0 +1,57 @@
+
+body{
+    background-color: rgb(224, 202, 224);
+}
+.report-div{
+    background-color:#ea8585;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    margin-top:20px;
+    border-radius:10px;
+    padding: 40px;
+    width: 600px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+.ansdiv{
+    background-color: antiquewhite; 
+    border-radius:10px ;
+    padding: 5px;
+    margin-top: 10px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+.dbtn{
+    margin-top: 20px;
+    padding: 15px;
+    background-color:purple;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: purple;
+    border-style: solid;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.dbtn:hover{
+    background-color: plum;
+    border-width: 1px;
+    border-color: plum;
+    border-style: solid;
+    color: black;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 250px;
+    font-size: 30px;
+    
+}

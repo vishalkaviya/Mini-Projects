@@ -1,0 +1,233 @@
+*{
+    margin:  0px;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+    
+}
+.profilediv{
+    width:40%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    height: 900px;
+   display:inline-block;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+.profilehead{
+    width:609px;
+    background: linear-gradient(to bottom,#c90641, #8c05d0);
+    border-radius: 20px 0px 0px 0px;
+    
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    
+    height: 200px;
+}
+.profilehead img{
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin-left: 250px;
+   margin-bottom: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.profilefoot{
+    height:550px;
+    background-color: white;
+    background-repeat: no-repeat;
+    
+}
+.name{
+     
+     margin-left:250px;
+     color: white;
+}
+.proform{
+ background: rgb(255, 255, 255);
+ height:550px;
+ width:70%;
+ margin-left:90px;
+ box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+ border-radius: 10px;
+ padding: 10px;
+ 
+ padding-top: 20px;
+ row-gap: 10px;
+ margin-top: 30px;
+}
+.proform h3{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.input-container {
+    position: relative;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Space for icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.input-container i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color:#c90641;
+}
+.labelcls{
+    margin-left: 20px;
+}
+input[type="radio"]{
+    accent-color: #6d03a2;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 20px;
+}
+.radio-group{
+    display:flex;
+    gap:20%;
+}
+.radio-group label{
+    display:flex;
+    align-items: center;
+    gap:5px;
+    left: 5px;
+}
+input[type="date"]{
+    width: 380px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.button :hover{
+    color:#da528b;
+    background-color: #ccc;
+}
+.logpropar:hover{
+    color:block;
+    
+}
+.logproan{
+    text-decoration: none;
+    color:#e4084a;
+}
+.logproan:hover{
+    color:#9e3051 ;
+}
+.logpropar{
+    margin-left:200px;
+    margin-top:30px;
+    color:#e4084a;
+    cursor:pointer;
+}
+
+.maindiv{
+    display:flex;
+   
+}
+
+.aa{
+    text-decoration: none;
+    color: white;
+}
+.imgdiv{
+    height:900px;
+    width:880px;
+    background-image: url('sprobg8.jpg');
+    
+   margin-top: -780px;
+    box-shadow: 0px 4px 30px rgba(0,0,0,0.3);
+    background-size: cover;
+    background-position: center;
+   border-radius: 0px 20px 20px 0px;
+   margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 608px;
+
+    
+}
+.maindiv{
+    display:flex;
+}
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-100%);
+        opacity:0;
+    }
+    to{
+        transform: translateX(0);
+        opacity:1;
+    }
+  }
+
+  .home-button {
+    margin-top: 780px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #19e616;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 750px;
+    
+    
+  }
+
+  .home-button:hover {
+    background-color: #a9dda7;
+  }
+  .profile{
+    color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 25px;
+      font-weight: bold;
+      animation: slideInLeft 1.5s ease-out forwards;
+      transform: translate(-50%, -50%);
+  
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 100px;
+
+  }
+  .savein{
+     width: 150px;
+    background-color:#e4084a ;
+    border-color: #e4084a;
+     border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    border-radius: 10px;
+     color:white;
+     font-size: 15px;
+     margin-left: 150px;
+     cursor: pointer;
+  margin-top: 10px;
+  padding: 2px;
+  }
+  .savein:hover{
+    background-color:#9e3051 ;
+    border-color: #9e3051 ;
+     border-style: solid;
+    border-width: 1px;
+  }

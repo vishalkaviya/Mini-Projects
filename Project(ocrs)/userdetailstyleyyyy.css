@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    height: 30px;
+    width:300px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width:1px; margin-left: 550px;
+    cursor: pointer;
+    margin-top: 60px;
+    
+}
+.submit{
+    color: azure;
+    background-color:rgb(3, 3, 114);
+    border-radius: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(3, 3, 114);
+    border-width:1px;
+    margin-top: 60px;
+    margin-left: 20px;
+    width:100px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+.submit:hover{
+    background-color: rgb(48, 48, 205);
+    
+  }
+  .table1{
+    
+    margin-top: 30px;
+    margin-left: 180px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color:#ea8585;
+    overflow: hidden;
+    border-radius: 8px;
+    
+  
+}
+tr:nth-child(even)
+{
+    background-color: #f0cccc;
+}
+tr:hover
+{
+    background-color: antiquewhite;
+}
+td,th{
+    padding: 15px 20px;
+    text-align: center;
+}
+.table2{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 30px;
+    margin-left: 120px;
+   
+
+   
+}
+.table1 thead{
+    background-color: antiquewhite;
+}
+thead{
+    background-color: #ea8585;
+}
+th{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.userreport{
+    background-color: #ea8585; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+
+}
+.para1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 10px;
+   margin-left: 10px;
+    font-weight: bold;
+}
+.users{
+    border-radius: 10px;
+    padding: 10px;
+    width:150px;
+    height: 25px;
+    background-color:  antiquewhite;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.para2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.male{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.male img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   
+
+}

@@ -1,0 +1,244 @@
+
+.contactus{
+    display:flex;
+    height: 500px;
+
+}
+.feedback{
+    display:block;
+    height:400px;
+    width:450px;
+    margin-left:120px;
+    margin-top:-40px;
+    padding:30px;
+    border-radius: 20px;
+    background-color:rgb(7, 7, 92);
+    text-align: center;
+    
+    
+}
+.name{
+    
+    display:block;
+    margin-top:20px;
+    width:300px;
+    height:50px;
+    border-radius:20px;
+    background-color:white;
+    color:black;
+   border-style:solid;
+    
+
+}
+.email{
+    
+    display:block;
+    margin-top:30px;
+    width:300px;
+    height:50px;
+    border-radius:20px;
+    background-color:white;
+    color:black;
+   border-style:solid;
+    
+
+}
+
+.msg{
+    width:200px;
+    height:40px;
+    margin-top:40px;
+    text-align:center;
+    padding: 5px;
+    background-color: #AB47BC;
+    color:white;
+    border-color: #AB47BC;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.design{
+    height:650px;
+    width:700px;
+    background-color:white;
+    margin-top: 20px;
+    box-shadow: 0px 0px 40px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.design1{
+    height: 500px;
+    width:300px;
+    background-color: blue;
+    
+}
+.design0{
+    height:100px;
+    width:300px;
+    background-color: blue;
+    margin-top:50px;
+
+}
+.input-container {
+    position: relative;
+    width: 250px;
+    margin-top: 5px;
+    margin-right: 50px;
+    height: 70px;
+    
+}
+
+.input-container input {
+    width: 100%;
+    padding: 2px 2px 2px 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   
+    cursor: pointer;
+}
+
+.input-container i {
+    position: absolute;
+    left:20px;
+    top: 45%;
+    transform: translateY(-50%);
+    color:black
+}
+    
+
+.contact img{
+    height: 550px;
+    width: 550px;
+    margin-top:50px;
+    margin-left: 70px;
+}
+.msglogo img{
+    border-radius:50%;
+    margin-left:-740px;
+    margin-top: 420px;
+}
+
+    
+    
+.detail{
+    
+    margin-top:140px;
+    height: 630px;
+    background-color:white;
+    padding: 20px;
+    width:1400px;
+    margin-left:3%;
+    border-radius:10px;
+    box-shadow: 0px 0px 30px rgb(0,0,0,0.2);
+    margin-top: 200px;
+    
+}
+.conttt{
+    display: flex;
+    
+}
+
+.message{
+   
+    height:70px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width:300px;
+    
+}
+.contcontent{
+    
+    background-color:white;
+    margin-left:-40px;
+    border-radius: 30px;
+    padding: 40px;
+    height: 420px;
+    margin-top:50px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0px 0px 30px rgb(0,0,0,0.2);
+}
+.connn img{
+    height: 270px;
+    width:320px;
+    margin-left:50px;
+    margin-top: -40px;
+}
+.contimg img{
+    height: 590px;
+    width:600px;
+    margin-left:20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgb(0,0,0,0.2);
+    
+}
+.location{
+    height: 300px;
+    background-color:rgb(227, 235, 238);
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    box-shadow: 0px 0px 30px rgb(0,0,0,0.2);
+}
+.call
+{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 40px;
+
+    border-radius: 20px;
+    background-image:url(calllogo.jfif);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    box-shadow: 0px 0px 30px rgb(0,0,0,0.2);
+    
+}
+
+.mail
+{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 20px;
+    background-image:url(maillogo.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    box-shadow: 0px 0px 30px rgb(0,0,0,0.2);
+    
+}
+
+.loc
+{
+height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 20px;
+    background-image:url(loclogo.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    box-shadow: 0px 0px 30px rgb(0,0,0,0.2);
+    
+
+}
+.clock
+{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin:40px;
+    border-radius: 20px;
+    background-image:url(clocklogo.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    box-shadow: 0px 0px 30px rgb(0,0,0,0.2);
+    
+    
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Box</title>
+    <style>
+        /* Dropdown Button */
+        .dropdown-btn {
+            background-color: #894caf;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Dropdown Box (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ddd;
+            width: 150px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+
+        /* Dropdown Items */
+        .dropdown-content p {
+            margin: 10px 0;
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .dropdown-content p:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Dropdown Button -->
+    <button class="dropdown-btn" onclick="toggleDropdown()">Explore Courses</button>
+
+    <!-- Dropdown Content -->
+    <div id="dropdownBox" class="dropdown-content">
+        <p>Udemy</p>
+        <p>Coursera</p>
+        <p>edX</p>
+        <p>Skillshare</p>
+    </div>
+
+    <script>
+        function toggleDropdown() {
+            var dropdown = document.getElementById("dropdownBox");
+            dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener("click", function(event) {
+            var dropdown = document.getElementById("dropdownBox");
+            var button = document.querySelector(".dropdown-btn");
+
+            if (dropdown.style.display === "block" && event.target !== dropdown && event.target !== button) {
+                dropdown.style.display = "none";
+            }
+        });
+    </script>
+
+</body>
+</html>

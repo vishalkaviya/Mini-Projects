@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('bglog1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sigbtn{
+    margin-top: 10px;
+   margin-right:120px;
+   background: linear-gradient(to right, #9333ea, #7c3aed);
+   color:white;
+   font-size:17px;
+   border-radius:10px;
+   border-style:solid;
+   border-width:3px;
+   border-color:#7c3aed;
+   height: 40px;
+   width:200px;
+   padding: 5px;
+   text-align:center;
+   cursor: pointer;
+}
+.sigbtn:hover{
+    background:  #6d28d9;
+}
+.sia{
+    text-decoration: none;
+    color:white;
+}
+.logdivwhite {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    padding: 40px;
+    border-radius: 15px;
+    width: 600px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    animation: fadeIn 1s ease;
+    height: 600px;
+    margin-top: 0px;
+    animation: fadeIn 1s ease;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.inputs1 {
+
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #e4e9ec;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    
+
+}
+
+table {
+
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+
+
+h2 {
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+
+form {
+    margin-top: -170px;
+    padding-top: 0;
+}
+
+.logdivwhite input {
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+
+
+}
+
+select {
+    width: 230px;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    cursor: pointer;
+    color: #333;
+
+}
+
+
+
+.login-link {
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.headerlog1 {
+    display: flex;
+    height: 1px;
+
+
+}
+
+
+
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+}
+
+.password-container input {
+    padding-right: 35px;
+    width: 180px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 50px;
+    
+
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.haa{
+    margin-left:70px;
+    margin-top:20px;
+  }
+  .ha{
+    margin-left:200px;
+    margin-top:20px;
+  }
+  .anch{
+    text-decoration:none;
+    color:rgb(196, 105, 36);
+  }
+  .anch:hover{
+    color:rgb(223, 173, 128);
+  }
+  
+  
+  .sign{
+    margin-top:6px;
+    margin-right:120px;
+    background-color:rgb(112, 3, 179);
+    color:white;
+    font-size:17px;
+    border-radius:10px;
+    border-style:solid;
+    border-width:3px;
+    border-color:rgb(103, 4, 196);
+    height:50px;
+    width:150px;
+    text-align:center;
+    cursor: pointer;
+
+}
+  .sign:hover{
+    background:rgb(27, 27, 120);
+    border-style:solid;
+    border-width:3px;
+    border-color:rgb(27, 27, 120);
+  }
+.eye-icon {
+
+    font-size: 20px;
+    color: #777;
+
+}
+sup{
+    color:red;
+}
+.logahnch{
+    text-decoration: none;
+    color:green;
+    cursor: pointer;
+}
+.logahnch:hover{
+    color:purple;
+}

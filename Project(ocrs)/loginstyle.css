@@ -1,0 +1,141 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('bglog1.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Login Form with Glassy Effect */
+  .loginsmall {
+    background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+    padding: 40px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* Soft glow shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Glass-like border */
+    animation: fadeIn 1s ease;
+  }
+  
+  
+  
+  /* Table styling for inputs */
+  table {
+    width: 100%;
+  }
+  
+  /* Style input fields */
+  input.logput1 {
+    width: 270px;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  
+  input.logput2 {
+    width: 170px;
+    padding: 12px;
+    background: linear-gradient(to right, #9333ea, #7c3aed);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left:40px ;
+  }
+  
+  input.logput2:hover {
+    background: linear-gradient(to right, #7c3aed, #6d28d9);
+  }
+  
+  .password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 12px;
+    cursor: pointer;
+    color: #555;
+    margin-top: 17px;
+    
+  }
+  
+  /* Error Message */
+  p[style*='color:red'] {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  /* Animation for fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .headerlog {
+    display: flex;
+    height: 20px;
+    margin-top: -30px;
+
+}
+.haa{
+  margin-left:40px;
+  margin-top:80px;
+}
+.ha{
+  margin-left:120px;
+  margin-top:80px;
+}
+
+.anch:hover{
+  color:rgb(223, 173, 128);
+}
+.anch{
+  text-decoration:None; 
+  color:rgb(172, 86, 86);
+}
+.sign{
+  margin-top:20px;text-decoration:None;color:rgb(17, 185, 40);margin-top:20px;
+}
+.sign:hover{
+  color:rgb(148, 244, 161)
+}
+.eye-icon {
+
+    font-size: 20px;
+    color: #777;
+  
+
+}
+sup{
+    color:red;
+}      
+
+
